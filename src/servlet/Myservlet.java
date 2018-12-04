@@ -17,10 +17,12 @@ public class Myservlet extends HttpServlet {
         super();
     }
 
+	//我是从远程仓库下载下来的。
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html;charset=UTF-8");
-		response.getWriter().print("get���ʷ�ʽ");
+		response.getWriter().print("get·ÃÎÊ·½Ê½");
+	
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
